@@ -11,20 +11,14 @@ const styles = StyleSheet.create({
         marginVertical: 8,
     }, 
     text: {
-        fontSize: 15,
+        fontSize: 16,
         fontWeight: '700',
         color: 'rgba(255, 255, 255, 1)'
     }, 
-    background: {
-
+    blueBg: {
+        backgroundColor: 'rgba(70, 129, 163, 1)',
     }, 
 })
 
 export default styles;
 
-// font-family: Inter;
-// font-size: 15px;
-// font-weight: 700;
-// line-height: 20px;
-// letter-spacing: -0.23999999463558197px;
-// text-align: center;

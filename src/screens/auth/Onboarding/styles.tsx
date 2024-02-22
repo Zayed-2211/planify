@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     },
     image: {
         width: '100%',
-        flex: 1
+        height: height*.7,
     }, 
     title: {
         fontSize: 22,
@@ -25,18 +25,12 @@ const styles = StyleSheet.create({
     },
     content: {
         padding: 48,
-        paddingTop: 16,
-        backgroundColor: 'white',
-    },
-    footer: {
         position: 'absolute',
         bottom: 0,
-        height: 30,
-        width: '100%',
         backgroundColor: 'white',
         borderTopRightRadius: 30,
         borderTopLeftRadius: 30,
-    }
+    },
 })
 
 export default styles;
