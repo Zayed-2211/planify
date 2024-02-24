@@ -16,6 +16,22 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         color: colors.purple,
     },
+    row: {
+        marginTop: 10,
+        marginBottom: 20,
+        flexDirection: 'row',
+        alignItems: 'center'
+
+    },
+    agreeText: {
+        textAlign: 'center', 
+        fontSize: 13,
+        color: colors.grey,
+    }, 
+    link: {
+        color: colors.midGrey,
+        textDecorationLine: 'underline'
+    }
 
 })
 
