@@ -31,7 +31,17 @@ const styles = StyleSheet.create({
     link: {
         color: colors.midGrey,
         textDecorationLine: 'underline'
-    }
+    },
+    input: {
+        backgroundColor: colors.lightGrey,
+        paddingHorizontal: 24,
+        paddingVertical: 12,
+        color: colors.black,
+        fontSize: 15,
+        fontWeight: '400',
+        borderRadius: 10,
+        marginVertical: 12
+    }, 
 
 })
 

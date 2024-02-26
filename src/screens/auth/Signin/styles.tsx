@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     },
     footerLink: {
         fontWeight: 'bold',
-        color: colors.purple,
+        color: 'rgba(70, 129, 163, 1)',
     },
 
 })

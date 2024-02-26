@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "357661674955",
+    "project_id": "planify-4c399",
+    "storage_bucket": "planify-4c399.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357661674955:android:32b40c39b66618339c3a4e",
+        "android_client_info": {
+          "package_name": "com.taskify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm12hFDA5konsYJPxz6MOpixqu40TicKQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
