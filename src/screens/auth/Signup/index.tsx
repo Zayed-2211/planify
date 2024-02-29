@@ -52,15 +52,21 @@ const Signup4 = ({navigation}: {navigation: any}) => {
         auth()
         .createUserWithEmailAndPassword(value.email, value.password)
         .then(() => {
+            auth().currentUser?.updateProfile({
+                displayName: `${value.firstname} ${value.lastname}`,
+            })
+        })
+        .then(() => {
             console.log('User account created & signed in!');
         })
         .catch(error => {
+            console.log('Error: ', error.message)
             if (error.code === 'auth/email-already-in-use') {
-            console.log('That email address is already in use!');
+            Alert.alert('That email address is already in use!');
             }
 
             if (error.code === 'auth/invalid-email') {
-            console.log('That email address is invalid!');
+            Alert.alert('That email address is invalid!');
             }
 
             console.error(error);

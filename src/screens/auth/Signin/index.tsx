@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { SafeAreaView, View, Text } from "react-native";
+import { SafeAreaView, View, Text, Alert } from "react-native";
 import auth from '@react-native-firebase/auth';
 import styles from './styles';
 import Button from "../../../components/Button";
@@ -19,14 +19,14 @@ const Signin = ({navigation}: {navigation:any}) => {
           console.log('User account signed in!');
         })
         .catch(error => {
-          if (error.code === 'auth/email-already-in-use') {
-            console.log('That email address is already in use!');
-          }
-      
           if (error.code === 'auth/invalid-email') {
-            console.log('That email address is invalid!');
+            Alert.alert('That email address is invalid!');
           }
-      
+
+          if (error.code === 'auth/invalid-credential') {
+            Alert.alert('Wrong email or password');
+          }
+          
           console.error(error);
         });
     }
