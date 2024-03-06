@@ -3,14 +3,14 @@ import { TextInput } from "react-native";
 import styles from './styles';
 import colors from '../../constants/colors'
 
-const Input = ({...props}) => {
+const OutlinedInput = ({...props}) => {
     return (
         <TextInput
-            style={styles.input}
             placeholderTextColor={colors.midGrey}
             {...props}
+            style={styles.input}
         />
     )
 }
 
-export default React.memo(Input);
+export default React.memo(OutlinedInput);

@@ -1,4 +1,5 @@
 import { StyleSheet, } from "react-native";
+import colors from "../../constants/colors";
 
 const styles = StyleSheet.create({
     title: {
@@ -9,6 +10,12 @@ const styles = StyleSheet.create({
         paddingTop: 24,
         paddingBottom: 24,
     },
+    thin: {
+        fontWeight: '300',
+        color: colors.purple,
+        fontSize: 24,
+        paddingHorizontal: 24
+    }
 
 })
 

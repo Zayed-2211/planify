@@ -75,7 +75,7 @@ const Signup4 = ({navigation}: {navigation: any}) => {
 
     return (
         <SafeAreaView style={styles.container}>
-            <Title>Join the hub!</Title>
+            <Title type>Join the hub!</Title>
 
             <Input 
                 placeholder='First Name' 

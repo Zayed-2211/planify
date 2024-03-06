@@ -3,16 +3,18 @@ import colors from '../../constants/colors';
 
 const styles = StyleSheet.create({
     input: {
-        backgroundColor: colors.lightGrey,
         paddingHorizontal: 24,
         paddingVertical: 12,
         color: colors.black,
-        fontSize: 15,
+        fontSize: 12,
         fontWeight: '400',
         borderRadius: 10,
-        marginVertical: 12
+        marginVertical: 12,
+        backgroundColor: colors.white,
+        borderWidth: 1,
+        borderColor: colors.purple,
+        marginHorizontal: 24
     }
 })
 
 export default styles;
-

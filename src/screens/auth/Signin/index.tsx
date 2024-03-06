@@ -33,7 +33,7 @@ const Signin = ({navigation}: {navigation:any}) => {
 
     return (
         <SafeAreaView style={styles.container}>
-            <Title>Welcome back!</Title>
+            <Title type>Welcome back!</Title>
 
             <Input 
                 placeholder='Email' 

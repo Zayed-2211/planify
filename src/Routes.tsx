@@ -82,7 +82,7 @@ function Routes(): React.JSX.Element {
                 drawerContent={(props) => <DrawerContent {...props} />}
                 screenOptions={{headerShown: false}}>
                 <Drawer.Screen name="Tabs" component={Tabs} />
-                <Drawer.Screen name="Add Task" component={AddTask} />
+                <Drawer.Screen name="AddTask" component={AddTask} />
             </Drawer.Navigator>
         )
     }
